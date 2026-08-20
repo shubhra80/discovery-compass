@@ -41,3 +41,14 @@ npm run dev
 ```
 
 Requires a `.env` file with:
+VITE_SUPABASE_URL=
+VITE_SUPABASE_PUBLISHABLE_KEY=
+
+
+## Data ingestion scripts
+
+Located in `/scripts`, run separately from the deployed app using a Supabase secret key (never exposed to the browser):
+
+- `ingest.js` — process a single transcript file into tagged, stored insights
+- `generate.js` — generate a full synthetic dataset of interviews for demo purposes
+- `backfill-summaries.js` — generate AI summaries for interviews that don't yet have one
