@@ -1,0 +1,28 @@
+Discovery Interview — Northwind Logistics
+Interviewer: Priya Raman
+Date: 2026-01-12
+Participant: Dana Reyes, Operations Director
+
+Priya: Thanks for making time, Dana. I wanted to dig into how your team's been using the AI Meeting Summarizer since rollout.
+
+Dana: Honestly, it's been a big win. We run three ops syncs a week and nobody used to write anything down consistently. Now I just glance at the summary the next morning and I actually know what got decided. My only gripe is it sometimes misses action items when people talk over each other.
+
+Priya: That's helpful, we've heard that overlap issue before. Anything else come up day to day that's been a friction point?
+
+Dana: Yeah, actually — this isn't your area, but since you're here. Our IT security team has been on us for months about single sign-on. We've got twelve people on the platform now and managing separate passwords for each of them is a mess. It's actually become a blocker for us rolling this out to two more regional offices, because IT won't approve new accounts until SSO is sorted.
+
+Priya: Good to know, I'll flag that to the team that owns it.
+
+Dana: Appreciate it. Also, small thing, but every Friday I export our weekly numbers to CSV to build a deck for leadership. It works fine, it's just kind of clunky — I have to export three separate reports and stitch them together manually. If there were a way to build one custom view that had everything I needed, that'd save me maybe an hour a week.
+
+Priya: That's a good one for the dashboard team. What about when you're traveling — do you use the platform on your phone at all?
+
+Dana: I try to, but it basically doesn't work without wifi, which is a problem because half our warehouse floors don't have great signal. I was in Reno last month trying to check something and it just spun forever. If offline mode actually cached recent data I'd use mobile way more.
+
+Priya: Noted. Last thing — anything about the AI summaries themselves you'd want to see improved?
+
+Dana: One thing — sometimes I wish it would call out when someone's raised a concern that never actually got resolved. Right now it just summarizes what was said, but it doesn't flag "hey, this is still open." Would love if it could highlight unresolved items separately, almost like a running list across meetings.
+
+Priya: That's a great idea, I'll take that back with me. Thanks so much, Dana, this was really useful.
+
+Dana: Anytime. Oh — one more. We had an audit last quarter and our compliance team asked if there was a way to pull a log of who accessed what and when. We ended up doing it manually, which was painful. If that existed as a report we could just export, that'd save us a lot of headache next time.
