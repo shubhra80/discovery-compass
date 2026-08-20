@@ -4,6 +4,10 @@ An AI-powered discovery interview intelligence tool for product teams. Each PM i
 
 **Live:** [discovery-compass-live.vercel.app](https://discovery-compass-live.vercel.app)
 
+
+
+<img src="docs/discovery-compass-screenshot.png" width="800" alt="Discovery Compass dashboard">
+
 ## The problem
 
 Discovery interviews are a goldmine of customer signal, but in most teams that signal is siloed by whoever happened to run the interview. A PM interviewing about Feature A often hears real, useful feedback about Features B, C, and D — and that feedback typically evaporates unless they remember to manually pass it along. Across hundreds of interviews over time, that's a lot of lost signal.
