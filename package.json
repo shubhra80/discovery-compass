@@ -16,7 +16,6 @@
     "dotenv": "^17.4.2",
     "react": "^19.2.8",
     "react-dom": "^19.2.8",
-    "voyage": "^0.0.1",
     "voyageai": "^0.4.0"
   },
   "devDependencies": {
