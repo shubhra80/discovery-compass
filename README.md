@@ -6,6 +6,8 @@ An AI-powered discovery interview intelligence tool for product teams. Each PM i
 
 <img src="docs/discovery-compass-screenshot.png" width="800" alt="Discovery Compass dashboard">
 
+
+
 ## The problem
 
 Discovery interviews are a goldmine of customer signal, but in most teams that signal is siloed by whoever happened to run the interview. A PM interviewing about Feature A often hears real, useful feedback about Features B, C, and D — and that feedback typically evaporates unless they remember to manually pass it along. Across hundreds of interviews over time, that's a lot of lost signal, and tag-based browsing alone still requires knowing roughly what you're looking for.
@@ -59,10 +61,17 @@ npm run dev
 ```
 
 Requires a `.env` file with:
+
 VITE_SUPABASE_URL=
 VITE_SUPABASE_PUBLISHABLE_KEY=
 Note: the semantic search feature (`/api/search`) only runs on Vercel, since it depends on a serverless function — it won't work under `npm run dev` locally.
 
+<<<<<<< HEAD
+=======
+
+Note: the semantic search feature (`/api/search`) only runs on Vercel, since it depends on a serverless function — it won't work under `npm run dev` locally.
+
+>>>>>>> 77f8e308451d57ded6dd4cf507d5000a00f87f19
 ## Data ingestion & processing scripts
 
 Located in `/scripts`, run separately from the deployed app using a Supabase secret key (never exposed to the browser):
@@ -70,4 +79,8 @@ Located in `/scripts`, run separately from the deployed app using a Supabase sec
 - `ingest.js` — process a single transcript file into tagged, stored insights
 - `generate.js` — generate a full synthetic dataset of interviews for demo purposes
 - `backfill-summaries.js` — generate AI summaries for interviews that don't yet have one
+<<<<<<< HEAD
 - `backfill-embeddings.js` — generate Voyage AI embeddings for snippets that don't yet have one, enabling semantic search
+=======
+- `backfill-embeddings.js` — generate Voyage AI embeddings for snippets that don't yet have one, enabling semantic search
+>>>>>>> 77f8e308451d57ded6dd4cf507d5000a00f87f19
