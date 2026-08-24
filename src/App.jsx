@@ -3,9 +3,11 @@ import { PMS } from './constants/nimbus';
 import Dashboard from './components/Dashboard';
 import IngestDemo from './components/IngestDemo';
 import InterviewLibrary from './components/InterviewLibrary';
+import SemanticSearch from './components/SemanticSearch';
 
 const TABS = [
   { id: 'dashboard', label: 'Dashboard' },
+  { id: 'search', label: 'Ask the Corpus' },
   { id: 'library', label: 'Discovery Corpus' },
   { id: 'ingest', label: 'How It Works' },
 ];
@@ -57,6 +59,7 @@ export default function App() {
             onViewFullInterview={handleViewFullInterview}
           />
         )}
+        {activeTab === 'search' && <SemanticSearch />}
         {activeTab === 'library' && (
           <InterviewLibrary focusInterviewId={focusInterviewId} />
         )}
